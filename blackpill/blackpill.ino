@@ -1,4 +1,6 @@
 /*
+sudo usermod -a -G dialout $USER
+
 arduino-cli core update-index
 arduino-cli core install STM32:stm32
 

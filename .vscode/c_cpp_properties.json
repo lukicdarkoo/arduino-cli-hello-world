@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "forcedInclude": [
+                "${env:HOME}/.arduino15/packages/arduino/hardware/mbed/1.3.1/cores/arduino/Arduino.h"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:HOME}/Arduino/libraries"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "${env:HOME}/Arduino/libraries"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
